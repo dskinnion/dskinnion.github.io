@@ -2542,9 +2542,10 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			padding: 0 0 10 0;
+			padding: 0 0 0 0;
 			margin: 0;
-			font-size: 48px;
+			font-size: 12px;
+			vertical-align: middle;
 		}
 
 			#header h1 a {
