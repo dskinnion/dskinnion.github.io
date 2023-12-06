@@ -3107,7 +3107,7 @@ input, select, textarea {
 					}
 
 			#navPanel {
-				background-color: #a3cef1;
+				background-color: red;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
