@@ -2110,6 +2110,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.center {
+			display: block;
+			float: center;
+		}
+
+			.image.center img {
+				display: block;
+				width: 100%;
+			}
+
 /* Icon */
 
 	.icon {
