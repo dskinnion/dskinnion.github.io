@@ -2117,7 +2117,8 @@ input, select, textarea {
 
 			.image.center img {
 				display: block;
-				width: 100%;
+				margin-left: auto; 
+				margin-right: auto;
 			}
 
 /* Icon */
