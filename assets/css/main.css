@@ -3070,7 +3070,7 @@ input, select, textarea {
 				#titleBar .toggle {
 					text-decoration: none;
 					border: 0;
-					height: 60px;
+					height: 0px;
 					left: 0;
 					position: absolute;
 					top: 0;
@@ -3094,10 +3094,10 @@ input, select, textarea {
 					#titleBar .toggle:before {
 						content: '\f0c9';
 						display: block;
-						height: 44px;
+						height: 0px;
 						line-height: inherit;
 						text-align: center;
-						width: 44px;
+						width: 0px;
 						color: #fff;
 						opacity: 0.5;
 					}
