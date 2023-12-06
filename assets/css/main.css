@@ -3032,10 +3032,10 @@ input, select, textarea {
 			}
 
 			#titleBar {
-				/* -moz-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
-				backface-visibility: hidden; */
+				backface-visibility: hidden;
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
@@ -3107,7 +3107,7 @@ input, select, textarea {
 					}
 
 			#navPanel {
-				background-color: red;
+				background-color: #a3cef1;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
