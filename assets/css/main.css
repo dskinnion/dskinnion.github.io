@@ -3054,7 +3054,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					display: block;
+					display: none;
 					position: relative;
 					font-weight: 600;
 					text-align: center;
@@ -3081,7 +3081,7 @@ input, select, textarea {
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						display: inline-block;
+						display: none;
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
@@ -3093,7 +3093,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						content: '\f0c9';
-						display: block;
+						display: none;
 						height: 0px;
 						line-height: inherit;
 						text-align: center;
@@ -3104,6 +3104,7 @@ input, select, textarea {
 
 					#titleBar .toggle:active:before {
 						opacity: 0.75;
+						display: none;
 					}
 
 			#navPanel {
