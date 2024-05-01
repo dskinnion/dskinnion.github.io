@@ -7,6 +7,43 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.collapsible {
+	background-color: #83bcae;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	font: inherit;
+  }
+  
+  .content {
+	padding: 1 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #ffffff;
+  }
+
+.active, .collapsible:hover {
+	background-color: #ccc;
+  }
+  
+  .collapsible:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 18px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active.collapsible:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
